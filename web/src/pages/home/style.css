@@ -1,0 +1,20 @@
+
+table{
+    text-align: center;
+    border: 2px solid #000;
+}
+
+tr,td,th,thead,tbody{
+    border: 1px solid #000000d5;
+}
+
+.mensagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16%;
+}
+
+.mensagem p{
+    font-size: 25px;
+}

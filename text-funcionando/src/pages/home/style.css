@@ -1,0 +1,36 @@
+.header{
+    margin-top: 25px;
+    border-top: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+
+table{
+    text-align: center;
+    border: 2px solid #000;
+}
+
+tr,td,th,thead,tbody{
+    border: 1px solid #000000d5;
+}
+
+.mensagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16%;
+}
+
+.mensagem p{
+    font-size: 25px;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}

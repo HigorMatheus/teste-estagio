@@ -1,0 +1,14 @@
+.header{
+    margin-top: 25px;
+    border-top: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    text-decoration: none;
+    /* color: #ddd; */
+}
+/* .header link{
+    text-decoration: none;
+    color: #ddd;
+} */

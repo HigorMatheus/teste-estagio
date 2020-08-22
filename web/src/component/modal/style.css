@@ -1,0 +1,30 @@
+.modal-dialog,
+.modal-content,
+.modal-header{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.form-dados{
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+}
+.labelidade{
+    width: 100%;
+}
+.idade{
+    margin: 0;
+    padding: 0;
+}
+
+
+.add-Tec{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.add-Tec button{
+    /* margin: 0 0 0 280px; */
+    padding: 10px;
+}

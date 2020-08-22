@@ -1,0 +1,22 @@
+.header{
+    margin-top: 25px;
+    border-top: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+.header a{
+    text-decoration: none;
+    color: #ddd;
+}
+.form-dados{
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+}
+.add-Tec{
+    margin-top: 30px;
+    padding: 10px;
+}
+
