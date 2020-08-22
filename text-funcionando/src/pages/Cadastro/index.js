@@ -71,6 +71,7 @@ const Cadastro = ()=>{
                       <div className="form-group col-md-6">
                         <label for="escola">escolaridade</label>
                         <Select id="escola"  name="escolaridade" className="custom-select custom-select " >
+                          <option value="" >selecione uma opção </option>
                           <option value="Fundamental - Incompleto" >Fundamental - Incompleto</option>
                           <option value='Fundamental - Completo'>Fundamental - Completo</option>
                           <option value=' Médio - Incompleto '> Médio - Incompleto</option>
@@ -91,7 +92,6 @@ const Cadastro = ()=>{
                             <div   className="form-group add-Tec ">
                             <Input name='tecnologia' type="text" className="form-control" id="inputName" placeholder="java script"/>
                           </div>
-                   
                       <div className="form-group  add-Tec ">
                          <button className="btn btn-white" type="button"> Adicionar</button>
                       </div>

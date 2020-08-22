@@ -1,43 +1,32 @@
 
-## Teste estagio 
+# Teste estagio 
 
-funcionalidades um usuario conseque 
+### de um git clone no repositorio
+```bash
+git clone https://github.com/HigorMatheus/teste-estagio.git
+```
+## como utilizar
 
-### como utilizar
-entre na pasta serverpwelo terminal para dar start co servidor com o comamdo 
-
-
-## Api Ven trocar 
-
-criando uma api para estudos 
-<!-- #  Front end da Arplicaçao 
-See [Repositorio front end](https://github.com). -->
-
-
-## Instale as dependencias
+### entre na pasta server pelo terminal e Instale as dependencias
 ```bash
 yarn
+
 npm install nodemon -D
 ```
-## inicie o banco de dados 
+### inicie o banco de dados
 ```bash
-npx knex migrate:latest
+yarn migrate
 ```
-# crie um arquivo auth.json na pasta src/config comforme o exemplo que esta na pasta 
-
-### inicie o funcionamento da API
+### de start no servidor 
 ```bash
-npm rum dev
+yarn dev
 ```
-### utilizaçao da API  api com Insominia 
 
-### baixe o sorfitware Insominia para verificar o funcionamento da API 
-See [insomnia](https://insomnia.rest/)
-
-#### rotas para utilizaçao no  texte no Insominia 
-
-metod post http://localhost:3001/user para criar um usuario enviando dados em Json 
-
-<!-- ### Repositorio font end -->
-<!-- See [Repositorio front end](https://github.com/Goncalves-Rafael/megahack3_grupo13_front). -->
-
+### entre na pasta  text-funcionando e istale as dependencias 
+```bash
+yarn
+```
+### de start no sistema
+```bash
+yarn start 
+```
